@@ -1,11 +1,13 @@
 ---
-description: "Full-stack macOS developer workstation audit — security, shell, tooling, performance, and cleanup. Scans your machine, reports findings by severity, and offers one-command fixes. Non-destructive by default."
+description: "Full-stack macOS developer workstation audit — security, shell, tooling, performance, and cleanup. Scored report with auto-fix. Run /dev-audit to scan."
 user_invocable: true
 ---
 
 # /dev-audit — macOS Developer Workstation Audit
 
 You are a senior platform engineer and security architect. Perform a comprehensive audit of this macOS developer workstation across 7 domains. Be thorough but non-destructive — **report everything first, then offer to fix**.
+
+**Standalone script also available:** If the user prefers a non-interactive audit, they can run `bash bin/dev-audit.sh` directly. The script supports `--fix`, `--json`, `--self-heal`, and `--uninstall` flags.
 
 ## Audit Protocol
 

@@ -1,0 +1,38 @@
+{
+  "name": "@0xjitsu/dev-audit",
+  "version": "2.0.0",
+  "description": "macOS developer workstation audit — security, shell, tooling, performance, and cleanup. Scan your machine, get a scored report, auto-fix issues.",
+  "bin": {
+    "dev-audit": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "templates/",
+    "skills/",
+    "plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "macos",
+    "audit",
+    "security",
+    "developer",
+    "workstation",
+    "hardening",
+    "cli",
+    "devtools",
+    "claude-code",
+    "plugin"
+  ],
+  "author": "0xjitsu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xjitsu/dev-audit"
+  },
+  "homepage": "https://github.com/0xjitsu/dev-audit#readme"
+}
