@@ -1,0 +1,6 @@
+{
+  "name": "dev-audit",
+  "version": "1.0.0",
+  "description": "Full-stack macOS developer workstation audit — security hardening, shell optimization, modern CLI tooling, performance tuning, and cleanup. Run /dev-audit to scan your machine.",
+  "skills": ["skills/dev-audit"]
+}
